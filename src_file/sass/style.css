@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+
+nav .menu {
+  background-color: transparent;
+}
+
+.navbar-brand h1 {
+  color: #7458ff;
+}
+
+nav ul li a {
+  font-weight: bold;
+  color: #ff7382 !important;
+}
+
+.bg-header {
+  min-height: 100vh;
+  max-height: 1000px;
+  background: url(/images/background_header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main--title {
+  padding-top: 150px;
+}
+
+.main--title h1 {
+  color: #ff7382;
+}
+
+.main--title .cta-btn {
+  background-color: #7458ff;
+  margin-top: 70px;
+  -webkit-box-shadow: 1px 3px 10px -1px rgba(101, 74, 235, 0.651);
+          box-shadow: 1px 3px 10px -1px rgba(101, 74, 235, 0.651);
+  -webkit-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+
+.cta-btn:hover {
+  -webkit-transform: translate(1px, -4px);
+          transform: translate(1px, -4px);
+}
+
+.team--section {
+  padding-top: 100px;
+  background: url(/images/background_team.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.team--section h3 {
+  padding: 50px 0px;
+  color: #7458ff;
+}
+
+.team--section .team-member {
+  padding-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+  .team--section .team-member {
+    padding-bottom: 0px;
+  }
+}
+
+.team--section img {
+  width: 100px;
+  height: 100px;
+}
+
+.about {
+  padding: 100px 0px;
+  background: url(/images/background_about.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .about {
+    background: url(/images/background_calltoaction.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.about h1 {
+  color: #ff7382;
+}
+
+.about .cta-btn {
+  background-color: #7458ff;
+  margin-top: 70px;
+  -webkit-box-shadow: 1px 3px 10px -1px rgba(101, 74, 235, 0.651);
+          box-shadow: 1px 3px 10px -1px rgba(101, 74, 235, 0.651);
+  -webkit-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+
+.news-letter {
+  padding: 100px 0px;
+  background: url(/images/Untitled.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.news-letter .cta-btn {
+  background-color: #ff7382;
+  margin-top: 30px;
+  -webkit-box-shadow: 1px 3px 10px -1px rgba(101, 74, 235, 0.651);
+          box-shadow: 1px 3px 10px -1px rgba(101, 74, 235, 0.651);
+  -webkit-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+
+.news-letter h3 {
+  color: #ff7382;
+}
+/*# sourceMappingURL=style.css.map */
